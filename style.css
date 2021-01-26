@@ -1,0 +1,121 @@
+ 
+.header{
+    text-align: center;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.origami{
+    
+    display: flexbox;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    font-family: fantasy;
+    text-align: center;
+    padding: 30px;
+    margin: 25px;
+}
+.grid{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 50;
+    color: red;
+   text-emphasis-color: black;
+}
+body{
+    background-color:  #0000ff;
+    margin: 0px;
+}
+.menu{
+
+display: flex;
+justify-content: flex-end;
+background-color: black;
+padding: 15px;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: blanchedalmond;
+
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    }
+    p,h1{
+        color: #ffff00;
+        text-align: center;
+        
+    }
+    
+     
+    .header{
+        text-align: center;
+
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    .grid{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     text-emphasis-color: black;
+
+    }
+    .footer{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    }
+    body{
+        background-color: #add8e6;
+    }
+    .bodyimg{
+        display: flex;
+justify-content: flex-end;
+background-color: black;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: #0000ff;
+
+    }
+    .grid{
+        position: relative;
+    
+    }
+    .grid p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+
+.grid:hover p{
+    opacity: 1;
+    color: orangered;
+}
+.grid:hover img{
+    opacity: 0.10;
+    
+}
+
+
+
+
+
+
+
+
+
